@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CryptoCurrency Tracker</string>
+    <string name="appwidget_text">CryptoCurrency Tracker</string>
+    <string name="add_widget">CryptoCurrency Tracker</string>
+    <string name="app_widget_description">CryptoCurrency Tracker</string>
+
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="current_time">Current time</string>
+    <string name="channel_name">Service start notification</string>
+    <string name="notification_title">Code Clock Widget</string>
+    <string name="notification_text">Code Clock Widget</string>
+    <string name="add" translatable="false"> #include  </string>
+    <string name="already_have_an_account">A <font color='#01C6DB'>Login</font></string>
+</resources>

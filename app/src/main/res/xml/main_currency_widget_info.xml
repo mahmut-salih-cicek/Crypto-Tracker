@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_widget_description"
+    android:initialKeyguardLayout="@layout/main_currency_widget"
+    android:initialLayout="@layout/main_currency_widget"
+    android:minWidth="350dp"
+    android:minHeight="110dp"
+    android:previewImage="@drawable/ss3"
+    android:resizeMode="horizontal|vertical"
+    android:configure="com.sout.cryptocurrencytracker.View.WidgetConfig"
+    android:updatePeriodMillis="1000"
+    android:widgetCategory="home_screen" />

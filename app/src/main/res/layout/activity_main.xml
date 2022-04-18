@@ -1,0 +1,169 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#122946">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Set content -->
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="488dp"
+                    android:layout_marginBottom="3dp"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/materialCardView2"
+                    android:layout_width="331dp"
+                    android:layout_height="298dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="408dp"
+                    android:visibility="visible"
+                    app:cardBackgroundColor="#DD582E"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:layout_width="333dp"
+                            android:layout_height="201dp"
+                            android:fontFamily="@font/xmod1"
+                            android:padding="18dp"
+                            android:text="> 150+ Crypto Currency \n> Crypto Currency Graph Support\n> Unlimited access\n> Developer Support\n> Realtime Update "
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout4"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.019">
+
+                        </TextView>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="#FFFFFF"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0">
+
+                            <TextView
+                                android:layout_width="307dp"
+                                android:layout_height="79dp"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="11dp"
+                                android:layout_marginBottom="11dp"
+                                android:fontFamily="@font/xmod1"
+                                android:text="Upgrade to pro to have all the features"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                            </TextView>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:id="@+id/purchase_status"
+                    android:layout_width="405dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="343dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="343dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Purchase Info"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/purchase_button"
+                    android:layout_width="379dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="404dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="278dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:onClick="purchase"
+                    android:text="Purchase"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

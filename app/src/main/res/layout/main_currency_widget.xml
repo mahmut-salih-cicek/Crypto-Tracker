@@ -1,0 +1,284 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00000000"
+    android:layout_centerVertical="true"
+    android:padding="@dimen/widget_margin">
+
+
+    <ImageView
+        android:id="@+id/main3"
+        android:layout_width="351dp"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/sahpe1"
+        android:visibility="visible">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="109dp"
+        android:layout_height="57dp"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/shape2">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="109dp"
+        android:layout_height="57dp"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="142dp"
+        android:background="@drawable/shape2">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tarih_gun"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="9dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/xmod1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="19 TUE"
+        android:textAlignment="center"
+        android:textColor="#F4BD5C"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/saat"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="39dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/xmod1"
+        android:format12Hour="@null"
+        android:format24Hour="HH:mm"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="21:48"
+        android:textAlignment="center"
+        android:textColor="#F4BD5C"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/currencyName"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/main3"
+        android:layout_alignBottom="@+id/main3"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="178dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/xmod1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="ETH/USD"
+        android:textAlignment="center"
+        android:textColor="#E642E195"
+        android:textSize="21sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/currencyPricenNEW"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/main3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="149dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/xmod1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="loading"
+        android:textAlignment="center"
+        android:textColor="#E642E195"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/oneday"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/main3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/xmod1"
+        android:text="1d"
+        android:textAlignment="center"
+        android:textColor="#ACABAB"
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="44dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/xmod1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="1d"
+        android:alpha="0.9"
+        android:textAlignment="center"
+        android:textColor="#ACABAB"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="2dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/xmod1"
+        android:maxLines="1"
+        android:text="Binance Exchange"
+        android:textColor="#ACABAB"
+        android:alpha="0.9"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/main3"
+        android:layout_alignBottom="@+id/main3"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/xmod1"
+        android:text="Loading Graphic..."
+        android:textAlignment="center"
+        android:textColor="#ACABAB"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/plot_widget_img"
+        android:layout_width="197dp"
+        android:layout_height="122dp"
+        android:layout_alignEnd="@+id/main3"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="20dp"></ImageView>
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="192dp"
+        android:layout_height="9dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="44.0dp"
+        android:background="@drawable/sansur"
+        android:backgroundTint="@color/black"></ImageView>
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="9dp"
+        android:layout_height="124dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/sansur"
+        android:backgroundTint="@color/black"></ImageView>
+
+
+    <TextView
+        android:id="@+id/free_time_counter"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/main3"
+        android:layout_alignBottom="@+id/main3"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="5dp"
+        android:alpha="0.8"
+        android:text="Free version ends after 60 seconds"
+        android:textAlignment="center"
+        android:textColor="#FF3D00"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:visibility="visible"></TextView>
+
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/ic_baseline_arrow_upward_24"
+        android:backgroundTint="#00FF0C"
+        android:visibility="visible"></ImageView>
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/ic_baseline_arrow_downward_24"
+        android:visibility="visible"></ImageView>
+
+    <ImageView
+        android:id="@+id/sabit"
+        android:layout_width="30dp"
+        android:layout_height="5dp"
+        android:layout_alignBottom="@+id/free_time_counter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/shape4"
+        android:visibility="visible"></ImageView>
+
+    <ImageView
+        android:id="@+id/free_img"
+        android:visibility="gone"
+        android:background="@drawable/li1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ImageView>
+</RelativeLayout>
