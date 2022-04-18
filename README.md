@@ -1,6 +1,9 @@
 # Crypto-Tracker
  Crypto-Tracker
  
+ Download With Google Play:
+ https://play.google.com/store/apps/details?id=com.sout.cryptocurrencytracker&hl=tr&gl=US
+ 
  
  
  
